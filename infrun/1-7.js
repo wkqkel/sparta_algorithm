@@ -1,4 +1,6 @@
 function solution(arr) {
+
+    
   //   let answer = 0;
   //   let dayOne = arr[0];
   //   for (let i = 1; i < arr.length; i++) {
