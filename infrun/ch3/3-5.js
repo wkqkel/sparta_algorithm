@@ -11,7 +11,9 @@ const solution = (s) => {
       count = 1;
     }
   }
-  return answer; ///
+  return answer;
 };
+
+// s[i]와 s[i+1]을 비교해서 같으면 cnt++ 다를땐 s[i]+cnt 하고 cnt=1 일보다 클때만 cnt붙이기
 
 console.log(solution("KKHSSSSSSSE"));
