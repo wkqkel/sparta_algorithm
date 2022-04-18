@@ -2,7 +2,7 @@
 // 방법1
 // const solution = (s, t) => {
 //   let index = -1;
-//   let indexArray = [];
+//   let indexArray = []; // t의 index 배열
 //   let answer = [];
 //   while (true) {
 //     index = s.indexOf(t, index + 1);

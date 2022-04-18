@@ -13,11 +13,12 @@
 
 //2번풀이
 // 2중for문
-//i 갑이 고정되고 j가 돌면서 j가 i보다크면 i번의 등수를 ++.
+// i갑이 고정되고 j가 돌면서 j가 i보다크면 i번의 등수를 ++.
 
 function solution(arr) {
   let n = arr.length;
   let answer = Array.from({ length: n }, () => 1);
+  // console.log(answer);
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < n; j++) {
       if (arr[j] > arr[i]) answer[i]++;
