@@ -35,6 +35,7 @@ const solution = (m, arr) => {
   // rt본인이 포함된 m보다 작은 조건을 만족하는 배열의 경우의수는 rt-lt+1
   // 조건을 만족안하고 sum이 커지면 조건 만족할 때까지 lt++하고, 만족하면  rt-lt+1
   let ans = (lt = sum = 0);
+
   for (let rt = 0; rt < arr.length; rt++) {
     sum += arr[rt];
     while (sum > m) {
